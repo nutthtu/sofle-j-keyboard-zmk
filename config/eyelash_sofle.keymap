@@ -128,7 +128,7 @@
             bindings = <
 &kp GRAVE   &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI             &mmv MOVE_UP     &rgb_ug RGB_BRI  &rgb_ug RGB_BRD           &none      &none     &none           &trans
 &trans      &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR           &mmv MOVE_DOWN    &kp GRAVE  &kp TILDE         &kp MINUS          &kp EQUAL  &kp BSLH         &trans
-&trans      &bt BT_SEL 4  &default_report  &none         &none         &none            &mmv MOVE_LEFT   &none      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LBKT   &kp RBKT  &trans
+&trans      &bt BT_SEL 4  &none  &none         &none         &none            &mmv MOVE_LEFT   &none      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LBKT   &kp RBKT  &trans
 &trans      &kp LSHFT     &kp LCTRL        &kp LEFT_GUI  &kp LEFT_ALT  &none     &mmv MOVE_RIGHT  &none      &none             &kp COMMA          &kp DOT    &kp RSHFT           &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
@@ -165,7 +165,7 @@
 &trans  &kp HOME   &kp UP     &kp END    &kp PG_UP  &kp PRINTSCREEN    &trans  &none      &none   &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
 &trans  &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN  &kp DELETE      &trans  &none      &none   &none       &none              &none  &trans
 &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp CAPS    &trans  &none      &none   &none       &none              &none  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &mo 5      &kp SPACE    &trans  &kp ENTER  &trans  &trans  &trans  &trans
             >;
             display-name = "NAV";
         };
@@ -174,8 +174,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp HOME        &mmv MOVE_UP    &kp END          &kp PG_UP  &msc SCRL_UP     &trans  &none      &none   &none       &none              &none  &trans
 &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PG_DN  &msc SCRL_DOWN    &trans  &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
-&trans  &kp LC(Z)       &kp LC(X)       &kp LC(C)        &kp LC(V)  &none    &trans  &none      &none   &none       &none              &none  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(Z)       &kp LC(X)       &kp LC(C)        &kp LC(V)  &none    &trans  &none      &none   &none       &none              &none   &trans
+&trans  &trans  &trans  &trans  &trans     &kp SPACE    &trans  &kp ENTER  &trans  &trans  &trans  &trans
             >;
             display-name = "MOUSE";
         };
